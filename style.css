@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url("images/chapel.jpg");
+     font-family:sans-serif ;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li ::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+    width:100%;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+font-size: 60px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color:white;
+
+}
+.hero{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero:hover{
+border: 1px solid orangered;
+background: orangered;
+transition: 1s;
+}
+/*----course----*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+ .column1{
+    flex-basis: 31%;
+    background:gold;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+ }
+ .column2{
+    flex-basis: 31%;
+    background: gold;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+ } 
+ .column3{
+    flex-basis: 31%;
+    background: gold;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+ } 
+
+ h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+ }   
+ .course:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+ }
+ .course p {
+    color: black;
+ }
+ /*-------footer-------*/
+ .footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0 ;
+ }
+ .footerh4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: black;
+ }
+ .footerp{
+    color: black;
+ }
+ .icons.fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+ }
+ .fa-heart-o{
+    color: #f44336;
+    
+ }
+ p{
+    color: black;
+ }
+  /*-------about us page-------*/
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .about{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+.img{
+    background-image: url("images/graduation.jpg");
+    background-size: 100%;
+    height: auto;
+    width: 300px;
+    max-width: 100%;
+  } 
+  .text{
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .content{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .title h1{
+    color: #ffcc44;
+    font-size: 85px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  .context h3{
+    color: #f44336;
+  }
+  .content p{
+    color: azure;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+  }
+
+  
+  /*-------- contact.html---------*/
+  .meme {
+    font-family: arial;
+    margin: 2rem;
+    background-image: url("images/computer.jpg");
+    font-size: 15px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  form {
+    width: 45%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+  }
+  
+  textarea {
+    height: 100px;
+
+
+
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .contact-info {
+    width: 45%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-info h3 {
+    margin-bottom: 1rem;
+  }
+  /*------blog.html------*/
+  body {
+    background-image: url(images/logo.jpg);
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    min-height: 60px;
+    border-bottom: #77a8d8 3px solid;
+  }
+  
+  header h1 a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  .computer {
+    background-image: url("images/computer.jpg");
+    margin-top: 20px;
+    border:black 1px solid;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    width: 550px;
+    height: 550px;
+    background-repeat: no-repeat;
+  }
+  
+  .computer h2 {
+    margin-top: 0;
+  }
+  .beauty{
+    background-image: url("images/nail.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border:white 1px solid;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    width: 550px;
+    height: 550px;
+    background-repeat: no-repeat;
+    }
+  
+  .beauty h2 {
+        margin-top:0;
+    }
+
+ .fashion{
+        background-image: url("images/fashion.jpg");
+        margin-top: 20px;
+        border:black 1px solid;
+        flex-basis: 31%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        width: 550px;
+        height: 550px;
+        background-repeat: no-repeat;
+    }
+          
+ .fashion h2 {
+                margin-top:0 ;}      
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
